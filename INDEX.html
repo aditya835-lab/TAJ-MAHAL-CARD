@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #main {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+
+            margin: 0 auto;
+
+            border-radius: 30px;
+            align-items: flex-start;
+
+
+            max-width: 900px;
+
+        }
+
+        #taj {
+            border: 2px solid wheat;
+            width: 500px;
+            display: inline;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgb(0, 0, 0);
+
+
+
+        }
+
+        #img {
+            display: block;
+            border-radius: 20px 20px 20px;
+            box-shadow: 20px;
+            position: static;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0px 0px 20px 13px rgba(0, 0, 0, 0.4);
+        }
+
+        #th {
+            display: inline-block;
+            margin-left: 40px;
+            box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            font-size: 13px;
+            color: #000;
+        }
+
+        #th:hover {
+            background-color: rgb(204, 181, 150);
+        }
+
+        #T {
+            display: inline-block;
+            margin-left: 40px;
+            padding: 10px;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            font-size: 13px;
+            color: #000;
+            box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.4);
+        }
+
+        #T:hover {
+            background-color: rgb(204, 181, 150);
+        }
+
+        #h1 {
+
+            margin: 30px 0;
+
+            margin-left: 20px;
+            padding: 0px;
+            font-family: Isometra;
+            color: rgb(20, 20, 20);
+        }
+
+        p {
+
+            padding: 0px 10px;
+            margin-top: -30px;
+            line-height: 2;
+            text-align: justify;
+            color: #3a3a3a;
+
+        }
+
+        #R {
+            display: inline-flex;
+            margin-left: 168px;
+
+            margin-top: 25px;
+
+            padding: 12px 24px;
+
+            border: 2px solid wheat;
+
+            text-align: center;
+
+            justify-content: center;
+
+            background-color: rgba(116, 182, 212, 0.753);
+            font-size: 15px;
+            border-radius: 40px;
+            color: rgb(14, 70, 134);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.4);
+            align-items: center;
+            text-decoration: none;
+
+
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                align-items: flex-start;
+            }
+
+            #main {
+                width: 100%;
+                padding: 10px;
+            }
+
+            #taj {
+                width: 100%;
+                margin: 0;
+            }
+
+            #img {
+                width: 100%;
+                height: auto;
+            }
+
+            #th,
+            #T {
+                margin-left: 5px;
+                padding: 7px;
+                font-size: 11px;
+            }
+
+            #R {
+                margin: 20px auto 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!---- card.png which contain a card . write html and css code to design this card- -->
+    <div id="main">
+
+        <div id="taj">
+            <a href="https://www.tajmahal.gov.in/taj-mahal-photo-gallery.aspx" target="_blank"
+                rel="noopener noreferrer"><img src="Taj Mahal Sunset from the River.png" alt="taj mahal" id="img"></a>
+            <BR>
+            <BR>
+
+            <a href="https://www.britannica.com/list/new-seven-wonders-of-the-world" target="_blank"
+                rel="noopener noreferrer" title="KNOW ABOUT ALL 7 WONDERS OF WORLD">
+                <div id="th">7th WONDER</div>
+            </a>
+            <a href="https://www.google.co.in/maps/about/behind-the-scenes/streetview/treks/taj-mahal/" target="_blank"
+                rel="noopener noreferrer" title="SEE THE STREET VIEW OF TAJ MAHAL">
+                <div id="T">TAJ MAHAL</div>
+            </a>
+            <BR>
+            <h1 id="h1">TAJ MAHAL</H1>
+            <br>
+            <p>
+                An immense mausoleum of white marble, built in Agra between
+                1631 and 1648 by order of the Mughal emperor Shah Jahan in
+                memory of his favourite wife,
+                The Taj Mahal is located on the right bank of the Yamuna River
+                in a vast Mughal garden that encompasses nearly 17 hectares, in
+                the Agra District in Uttar Pradesh. It was built by Mughal Emperor
+                Shah Jahan in memory of his wife Mumtaz Mahal with construction
+                starting in 1632 AD and completed in 1648 AD, with the mosque, the
+                guest house and the main gateway on the south, the outer courtyard
+                and its cloisters were added subsequently and completed in 1653 AD.
+
+            </p>
+            <br>
+
+            <a id="R" href="https://whc.unesco.org/en/list/252/" target="_blank" rel="noopener noreferrer"
+                title="READ WIKIPIDEIA">
+                READ MORE
+            </a>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
